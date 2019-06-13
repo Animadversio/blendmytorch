@@ -9,3 +9,5 @@ Layout still needs a lot of work.
 This currently makes heavy presumptions about the module you want to display in blender.
 The top level module probably needs to define the submodules it invokes in order and in the forward method definition it should just call these submodules and nothing else. Sequential submodules are expanded recursively and non-sequential submodules, the gradient graph is searched to find all intermediate tensors to display.
 
+## Editing Note
+I really love the idea that make a reader of pytorch data and architecture and turn it into code and data format that the python console in Blender can use to visualize or even form a video with. 
